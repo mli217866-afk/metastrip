@@ -39,5 +39,6 @@
   },
   "bugs": {
     "url": "https://github.com/mli217866-afk/metastrip/issues"
-  }
+  },
+  "private": true
 }

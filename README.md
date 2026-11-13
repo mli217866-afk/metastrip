@@ -12,10 +12,10 @@ It's the engine behind **[WipeTag](https://wipetag.com)**, a free metadata remov
 ## Install
 
 ```bash
-npm install metastrip
+npm install github:mli217866-afk/metastrip
 ```
 
-Or drop `index.js` into a page with a `<script>` tag. It exposes `window.MetaStrip`.
+It is not published on the npm registry; this installs it straight from GitHub. Or drop `index.js` into a page with a `<script>` tag. It exposes `window.MetaStrip`.
 
 ## Use
 
@@ -55,9 +55,9 @@ const blob = new Blob([res.bytes], { type: file.type });
 ## CLI
 
 ```bash
-npx metastrip photo.jpg              # writes photo-clean.jpg
-npx metastrip *.heic --gps           # remove GPS only
-npx metastrip photo.png --check      # report, write nothing
+npx github:mli217866-afk/metastrip photo.jpg          # writes photo-clean.jpg
+npx github:mli217866-afk/metastrip *.heic --gps       # remove GPS only
+npx github:mli217866-afk/metastrip photo.png --check  # report, write nothing
 ```
 
 ## What it does not do
