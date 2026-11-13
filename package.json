@@ -1,0 +1,43 @@
+{
+  "name": "metastrip",
+  "version": "0.1.0",
+  "description": "Remove EXIF, GPS, XMP, IPTC and C2PA content credentials from JPEG, PNG, WebP and HEIC without re-encoding. Zero dependencies; runs in the browser and Node.",
+  "main": "index.js",
+  "bin": {
+    "metastrip": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "exif",
+    "metadata",
+    "remove-exif",
+    "strip-metadata",
+    "c2pa",
+    "xmp",
+    "iptc",
+    "gps",
+    "heic",
+    "privacy",
+    "ai-metadata"
+  ],
+  "homepage": "https://wipetag.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mli217866-afk/metastrip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mli217866-afk/metastrip/issues"
+  }
+}
